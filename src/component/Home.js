@@ -25,6 +25,7 @@ const blog=this.state.list.map((item,index)=>
                                              <Card 
                                                    title={item.title}
                                                    image={item.img}
+                                                   link={`/detaille/${item.id}`}
                                             /></div>
                                              )
 
